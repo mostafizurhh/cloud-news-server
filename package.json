@@ -1,0 +1,23 @@
+{
+  "name": "cloud-news-server",
+  "version": "1.0.0",
+  "description": "creating server or API for cloud-news-client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mostafizurhh/cloud-news-server.git"
+  },
+  "author": "Syed Mostafizur Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mostafizurhh/cloud-news-server/issues"
+  },
+  "homepage": "https://github.com/mostafizurhh/cloud-news-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
