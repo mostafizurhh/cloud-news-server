@@ -30,6 +30,11 @@ app.get('/category/:id', (req, res) => {
     }
 })
 
+/* get all news */
+app.get('/news', (req, res) => {
+    res.send(news);
+})
+
 /* get all news by id */
 app.get('/news/:id', (req, res) => {
     const id = req.params.id;
